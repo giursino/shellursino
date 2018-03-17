@@ -35,7 +35,10 @@ git-crypt unlock <CHIAVE>
 cat .ssh/id-rsa
 
 # Verificare permessi 640 della cartella e chiavi SSH
-chmod go= .ssh/*
+chmod 600 /home/giursino/.ssh/id_rsa
+
+# Verifica connessione github
+ssh -T git@github.com
 
 ```
 
