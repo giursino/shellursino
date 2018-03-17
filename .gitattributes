@@ -8,4 +8,5 @@
 id_rsa* filter=git-crypt diff=git-crypt
 
 # credenziali plotly
-.plotly/.credentials
+.plotly/.credentials filter=git-crypt diff=git-crypt
+
