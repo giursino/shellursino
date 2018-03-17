@@ -26,6 +26,8 @@ git fetch
 git reset --hard
 git checkout
 
+git branch --set-upstream-to=origin/master master
+
 # Poi si deve sbloccare il repo
 git-crypt unlock <CHIAVE>
 
