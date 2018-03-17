@@ -6,3 +6,6 @@
 
 # tutte le chiavi standard di OpenSSH
 id_rsa* filter=git-crypt diff=git-crypt
+
+# credenziali plotly
+.plotly/.credentials
