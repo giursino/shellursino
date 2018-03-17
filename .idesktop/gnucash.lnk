@@ -1,0 +1,8 @@
+ table Icon
+   Caption: Gnucash
+   Command: gnucash
+   Icon: /usr/share/icons/Mint-Y/apps/48/gnucash.png
+   X: 100
+   Y: 250
+ end
+

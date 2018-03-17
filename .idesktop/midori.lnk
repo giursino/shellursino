@@ -1,0 +1,8 @@
+ table Icon
+   Caption: Midori
+   Command: midori
+   Icon: /usr/share/icons/HighContrast/48x48/apps/web-browser.png
+   X: 100
+   Y: 50
+ end
+

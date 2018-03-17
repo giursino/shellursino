@@ -1,0 +1,8 @@
+table Icon
+  Caption: Nemo
+  Command: nemo --no-desktop
+  Icon: /usr/share/icons/HighContrast/48x48/apps/system-file-manager.png
+  X: 200
+  Y: 50
+end
+

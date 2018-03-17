@@ -1,0 +1,8 @@
+ table Icon
+   Caption: Eclipse
+   Command: env SWT_GTK3=0 GTK2_RC_FILES=/opt/eclipse/gtkrc-eclipse '/opt/eclipse/cpp-neon/eclipse/eclipse'
+   Icon: /usr/share/icons/HighContrast/48x48/categories/applications-engineering.png
+   X: 300
+   Y: 50
+ end
+

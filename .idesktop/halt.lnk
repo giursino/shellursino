@@ -1,0 +1,8 @@
+ table Icon
+   Caption: Shutdown
+   Command: shutdown -h now
+   Icon: /usr/share/icons/Mint-X/actions/48/system-shutdown.png
+   X: 100
+   Y: 750
+ end
+

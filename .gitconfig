@@ -1,0 +1,7 @@
+[user]
+	name = Giuseppe Ursino
+	email = giursino@gmail.com
+[color]
+	ui = true
+[push]
+	default = simple

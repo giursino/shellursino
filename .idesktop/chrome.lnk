@@ -1,0 +1,8 @@
+ table Icon
+   Caption: Chrome
+   Command: google-chrome
+   Icon: /usr/share/icons/HighContrast/48x48/apps/help-browser.png
+   X: 300
+   Y: 150
+ end
+

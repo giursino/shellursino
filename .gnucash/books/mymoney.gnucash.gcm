@@ -1,0 +1,621 @@
+[Top]
+BookGuid=3a10a774e6561463703db3b757b84fa4
+WindowCount=1
+
+[Account Hierarchy]
+column_order=name;type;commodity;account-code;description;lastnum;present;present_report;balance;balance_report;balance-period;cleared;cleared_report;reconciled;reconciled_report;last-recon-date;future_min;future_min_report;total;total_report;total-period;account-color;notes;tax-info;placeholder;
+name_width=264
+type_visible=false
+type_width=0
+commodity_visible=false
+commodity_width=0
+account-code_visible=false
+account-code_width=0
+description_visible=true
+description_width=631
+lastnum_visible=false
+lastnum_width=0
+present_visible=false
+present_width=0
+present_report_visible=false
+present_report_width=0
+balance_visible=false
+balance_width=0
+balance_report_visible=false
+balance_report_width=0
+balance-period_visible=false
+balance-period_width=0
+cleared_visible=false
+cleared_width=0
+cleared_report_visible=false
+cleared_report_width=0
+reconciled_visible=false
+reconciled_width=0
+reconciled_report_visible=false
+reconciled_report_width=0
+last-recon-date_visible=false
+last-recon-date_width=0
+future_min_visible=false
+future_min_width=0
+future_min_report_visible=false
+future_min_report_width=0
+total_visible=true
+total_report_visible=false
+total_report_width=0
+total-period_visible=false
+total-period_width=0
+account-color_visible=false
+account-color_width=0
+notes_visible=false
+notes_width=0
+tax-info_visible=false
+tax-info_width=0
+placeholder_visible=false
+total_width=241
+
+[Register c4670fb9d5729382a1be3bbeed9dea84]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 4f32253a069c1c32d75d606dc30dc187]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register af927fe6053412e7d5da2b9ea566e0a1]
+date_width=92
+date-due_width=92
+num_width=45
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+split-type_width=17
+
+[Register beb75398cbc7a78b6490418804bab7bb]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 03324bc3182180ecdc4884d236e1e3ff]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register fab17d9296695d2d4e891eba45163a37]
+date_width=92
+date-due_width=92
+num_width=45
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+split-type_width=17
+
+[Register d8bebfe73223a0859f11644811031534]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 4c45b36b0fce56c3d15057a713945072]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 19099b7de165828124cba175cd457c91]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 6eae64f97783a9f4a876a7213efd3a07]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register a3a1c244abb660b2e5c56afef21da4ce]
+date_width=98
+date-due_width=98
+num_width=50
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+split-type_width=17
+
+[Register 00000000000000000000000000000000]
+date_width=98
+trans-num_width=50
+reconcile_width=18
+transfer_width=223
+debit_width=90
+credit_width=90
+reg-run-balance_width=90
+
+[Register 4cb536ade6754ae664277c673cac1bf7]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register a99621998c5561eee2dacd323a13c99c]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register ae036b572265b6b530b4f14f67b77d66]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[dialogs/edit_prices]
+column_order=security;currency;date;source;type;price;
+currency_visible=true
+date_visible=true
+source_visible=true
+type_visible=true
+price_visible=true
+security_width=738
+
+[Register 8dcc556bc4411449a7922fd197c62792]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 42e3a27ccf2bbbc01deac77c271d3bd6]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register b87bc34d8e1f39de13f500d20cee7c12]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register d4ae73deba2a529928800a82b425f2d3]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register c9111e7bdf2eb0dcd0191128e6a901e1]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register a0b883a6eaf4c12dcfd209841bc419eb]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register afd03584309223e361999bb327bee8f0]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Budget 7d491977acbbc9dee2f86a65622d88c4]
+column_order=name;type;commodity;account-code;description;lastnum;present;present_report;balance;balance_report;balance-period;cleared;cleared_report;reconciled;reconciled_report;last-recon-date;future_min;future_min_report;total;total_report;total-period;account-color;notes;tax-info;placeholder;
+name_width=831
+type_visible=false
+type_width=0
+commodity_visible=false
+commodity_width=0
+account-code_visible=false
+account-code_width=0
+description_visible=false
+description_width=0
+lastnum_visible=false
+lastnum_width=0
+present_visible=false
+present_width=0
+present_report_visible=false
+present_report_width=0
+balance_visible=false
+balance_width=0
+balance_report_visible=false
+balance_report_width=0
+balance-period_visible=false
+balance-period_width=0
+cleared_visible=false
+cleared_width=0
+cleared_report_visible=false
+cleared_report_width=0
+reconciled_visible=false
+reconciled_width=0
+reconciled_report_visible=false
+reconciled_report_width=0
+last-recon-date_visible=false
+last-recon-date_width=0
+future_min_visible=false
+future_min_width=0
+future_min_report_visible=false
+future_min_report_width=0
+total_visible=false
+total_width=0
+total_report_visible=false
+total_report_width=0
+total-period_visible=false
+total-period_width=0
+account-color_visible=false
+account-color_width=0
+notes_visible=false
+notes_width=0
+tax-info_visible=false
+tax-info_width=0
+placeholder_visible=false
+
+[Register bbd3ea596f066b3210fa196bda686e96]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 472f3d5afdc8961792387befca3612ee]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 694c541400aa1c134c5695f7a83ff1a4]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 883d353c6dbf92a8bc083cdcc17bf31e]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 7e9b0ebc68059964a6e540b1340da8eb]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 6f6cbe372233fa5937866b5fe9b5911e]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register dd5b35eaf1d34123c700eabb09950e23]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 6149c68081d77ca871df844870e7d27b]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 84a39bcfdef5820517451559b4124a33]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 059a3a5077c5d59dff2bd61491e4e875]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+shares_width=90
+price_width=90
+
+[Register c16cff1d55d1c45dafa10b43657bdcb2]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+shares_width=90
+price_width=90
+
+[Register 77eb6f7bf4cea2b98544a28fce1cc1f8]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+shares_width=90
+price_width=90
+
+[Register bd43040e8580e5d0f01787edf68d7cd8]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+shares_width=90
+price_width=90
+
+[Register 6b0f89b14b9c49e903346c2ce4a43008]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+shares_width=90
+price_width=90
+
+[Register c59873d1fde209ff282c458892f9595e]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 518b1ab0a97627bd3ac798231984bc3f]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 5f8d4057aabc8774c8062907113b1d88]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register a90d0dcb625e7e8b6992f9a611c96eaf]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 88fb160f55d6891e16ceac9697d013a0]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 89ef741ceae7dd251fa5ec656d56684d]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register e9ae11535fbe440abefc7b71c8701e01]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 5fcce33e8f00060fd02184224f59acd3]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register c0416414dcb5858e73b62136491fbc61]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Window 1]
+PageCount=7
+FirstPage=1
+PageOrder=1;7;6;2;3;4;5;
+WindowPosition=30;20;
+WindowGeometry=1194;796;
+WindowMaximized=false
+ToolbarVisible=true
+SummarybarVisible=true
+StatusbarVisible=true
+
+[Page 1]
+PageType=GncPluginPageAccountTree
+PageName=Conti
+AccountTypes=-1
+ShowHidden=false
+ShowZeroTotal=true
+OpenAccount1=Attività
+OpenAccount2=Attività:Attività correnti
+OpenAccount3=Attività:Attività correnti:Conto corrente
+OpenAccount4=Attività:Attività correnti:Denaro Prestato
+OpenAccount5=Attività:Attività correnti:Denaro Prestato:Anticipo
+OpenAccount6=Attività:Attività correnti:Liquidità
+OpenAccount7=Attività:Attività correnti:Liquidità:Busta
+OpenAccount8=Attività:Investimenti
+OpenAccount9=Capitali
+OpenAccount10=Entrate
+OpenAccount11=Entrate:Entrate extra
+OpenAccount12=Entrate:Entrate Lavorative
+OpenAccount13=Entrate:Regali Ricevuti
+OpenAccount14=Entrate:Vendita oggetti
+OpenAccount15=Passività
+OpenAccount16=Passività:Carta credito
+OpenAccount17=Passività:Prestiti
+OpenAccount18=Uscite
+OpenAccount19=Uscite:Casa
+OpenAccount20=Uscite:Imprevisti
+OpenAccount21=Uscite:Mobilità
+OpenAccount22=Uscite:Mobilità:Auto
+OpenAccount23=Uscite:Sanità
+OpenAccount24=Uscite:Tempo Libero
+OpenAccount25=Uscite:Vacanze
+NumberOfOpenAccounts=25
+
+[Page 2]
+PageType=GncPluginPageRegister
+PageName=Portafoglio
+RegisterType=Account
+AccountName=Attività:Attività correnti:Liquidità:Portafoglio
+RegisterStyle=Ledger
+DoubleLineMode=true
+
+[Page 3]
+PageType=GncPluginPageRegister
+PageName=I Miei Prestiti
+RegisterType=Account
+AccountName=Attività:Attività correnti:Denaro Prestato:I Miei Prestiti
+RegisterStyle=Ledger
+DoubleLineMode=true
+
+[Page 4]
+PageType=GncPluginPageRegister
+PageName=Ristorazione
+RegisterType=Account
+AccountName=Uscite:Tempo Libero:Ristorazione
+RegisterStyle=Ledger
+DoubleLineMode=false
+
+[Page 5]
+PageType=GncPluginPageRegister
+PageName=Deutsche Bank
+RegisterType=Account
+AccountName=Passività:Carta credito:Deutsche Bank
+RegisterStyle=Ledger
+DoubleLineMode=true
+
+[Page 6]
+PageType=GncPluginPageRegister
+PageName=Fineco C/C
+RegisterType=Account
+AccountName=Attività:Attività correnti:Conto corrente:Fineco C/C
+RegisterStyle=Ledger
+DoubleLineMode=true
+
+[Page 7]
+PageType=GncPluginPageReport
+PageName=Profitto annuale
+SchemeOptions=(let ((options (gnc:report-template-new-options/report-guid "d5adcc61c62e4b8684dd8907448d7900" "Average Balance"))) (let ((option (gnc:lookup-option options                                  "General"                                  "Report name")))   ((lambda (option) (if option ((gnc:option-setter option) "Profitto annuale"))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Start Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1136070000 . 0)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Step Size")))   ((lambda (option) (if option ((gnc:option-setter option) 'YearDelta))) option)) (let ((option (gnc:lookup-option options                                  "Accounts"                                  "Exclude transactions between selected accounts")))   ((lambda (option) (if option ((gnc:option-setter option) #t))) option)) (let ((option (gnc:lookup-option options                                  "Accounts"                                  "Accounts")))   ((lambda (option) (if option ((gnc:option-setter option) '("95859337487c183ae2921c29f4c54151" "3c15d8842ca23647774224c3cb7a976e")))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Type")))   ((lambda (option) (if option ((gnc:option-setter option) '(GainPlot)))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Width")))   ((lambda (option) (if option ((gnc:option-setter option) 1024.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show table")))   ((lambda (option) (if option ((gnc:option-setter option) #t))) option)) (if (defined? 'gnc:restore-report-by-guid-with-custom-template)   (gnc:restore-report-by-guid-with-custom-template 9 "d5adcc61c62e4b8684dd8907448d7900" "Average Balance" "5971b00bf2db37431b0485738659b978" options)   (gnc:restore-report-by-guid 9 "d5adcc61c62e4b8684dd8907448d7900" "Average Balance" options)) )

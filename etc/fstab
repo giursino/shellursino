@@ -1,0 +1,30 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda7 during installation
+UUID=a475eaf5-4c44-4171-8530-00ee633f6e13 /               ext4    errors=remount-ro 0       1
+# swap was on /dev/sda5 during installation
+UUID=a2ef6cc8-0c67-4245-b3b4-a719f6705510 none            swap    sw              0       0
+
+# home
+UUID=c1c8c87b-f250-4ba8-9bfa-395cc931d030 	/mnt/homedisk	  		ext3    defaults	0 	2
+/mnt/homedisk/giursino.mint18			/home/giursino  		ext3	  rw,bind,user_xattr	0	0
+/mnt/homedisk/giursino.common/Workspace		/home/giursino/Workspace  	ext3	  rw,bind	0	0
+/mnt/homedisk/giursino.common/Immagini		/home/giursino/Immagini  	ext3	  rw,bind	0	0
+/mnt/homedisk/giursino.common/bin		/home/giursino/bin  		ext3	  rw,bind	0	0
+/mnt/homedisk/common				/home/giursino/Pubblici		ext3	  rw,bind	0	0
+
+# VIRTUALBOX-DATA: /dev/sda4
+UUID=17c4cf24-f1ab-4560-a072-d075f17b5790 	/mnt/virtualbox-data		ext3	defaults	0	3
+/mnt/virtualbox-data/virtualbox-giursino	/home/giursino/.VirtualBox	ext3	  rw,bind	0	0
+
+## NasGG (Synology DS216j)
+//nasgg.local/home/Documenti	/home/giursino/Documenti	cifs	iocharset=utf8,credentials=/etc/samba/smbcredentials.giursino,dir_mode=0777,file_mode=0777,rw,uid=1000,gid=1000,noexec 0 0
+//nasgg.local/photo		/home/giursino/Immagini/Foto	cifs	iocharset=utf8,credentials=/etc/samba/smbcredentials.giursino,dir_mode=0777,file_mode=0777,rw,uid=1000,gid=1000,noexec 0 0
+//nasgg.local/video		/home/giursino/Video		cifs	iocharset=utf8,credentials=/etc/samba/smbcredentials.giursino,dir_mode=0777,file_mode=0777,rw,uid=1000,gid=1000,noexec 0 0
+//nasgg.local/music		/home/giursino/Musica		cifs	iocharset=utf8,credentials=/etc/samba/smbcredentials.giursino,dir_mode=0777,file_mode=0777,rw,uid=1000,gid=1000,noexec 0 0
+

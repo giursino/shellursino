@@ -1,0 +1,347 @@
+[Top]
+BookGuid=550d61d025072f13b5472db1d807a8ce
+WindowCount=1
+
+[Account Hierarchy]
+column_order=name;type;commodity;account-code;description;lastnum;present;present_report;balance;balance_report;balance-period;cleared;cleared_report;reconciled;reconciled_report;last-recon-date;future_min;future_min_report;total;total_report;total-period;account-color;notes;tax-info;placeholder;
+type_visible=false
+type_width=0
+commodity_visible=false
+commodity_width=0
+account-code_visible=false
+account-code_width=0
+description_visible=true
+lastnum_visible=false
+lastnum_width=0
+present_visible=false
+present_width=0
+present_report_visible=false
+present_report_width=0
+balance_visible=false
+balance_width=0
+balance_report_visible=false
+balance_report_width=0
+balance-period_visible=false
+balance-period_width=0
+cleared_visible=false
+cleared_width=0
+cleared_report_visible=false
+cleared_report_width=0
+reconciled_visible=false
+reconciled_width=0
+reconciled_report_visible=false
+reconciled_report_width=0
+last-recon-date_visible=false
+last-recon-date_width=0
+future_min_visible=false
+future_min_width=0
+future_min_report_visible=false
+future_min_report_width=0
+total_visible=true
+total_report_visible=false
+total_report_width=0
+total-period_visible=false
+total-period_width=0
+account-color_visible=false
+account-color_width=0
+notes_visible=false
+notes_width=0
+tax-info_visible=false
+tax-info_width=0
+placeholder_visible=false
+name_width=255
+description_width=571
+
+[Register b89bc77eb5844eeda09fc6511ef9f021]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 43f7583f9ee56f14dbd003bfffa8a917]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 217f1184742b6bb3147a7552416418a0]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 6c96ae0e804206a6c0a803becd58df8c]
+date_width=92
+date-due_width=92
+num_width=45
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+split-type_width=17
+
+[Register 9245fea0fd240886e426745f09508d60]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 00000000000000000000000000000000]
+date_width=98
+reconcile_width=18
+transfer_width=223
+debit_width=90
+credit_width=90
+trans-num_width=50
+reg-run-balance_width=90
+
+[Register c0ffa61ae82d18d101852345e66ffcd0]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 820fd9d752348431cf323ddee7fbde59]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register a9527f33c09f5afb78a44b8fb9f71793]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register bccdab4e145ce4f7a31dddf712adc559]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register e664bb53ac64b00e63ce024673b36af4]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 7873a95eaf6605738da69fa229f9ccea]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 61dce0d5ea5c20d9d080db8f27f4eead]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register ed0a7acd64c809dd4b7e8f82040f95f6]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register b414002db9e08b75f4ac9b0e3dfc1376]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register f80a0b87149f2a59b98070ee35abf4fc]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 89099464938933977b9827e9739d6ced]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register c9b24d8be0fcdb857c3d80417cdc9b9c]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 9f82b86e6d8f76dc6974edeb2231d074]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 7a687a1a48851a39332e2851133df745]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register c897057aaa874fd6a5a1a8016a86e5de]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 0161a253dacaa53571cf64dd1cd206e3]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register 39e7a862363f2ca3eea58e4586d495ed]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register b009f3321ad84ee5910cb642ef759127]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Register da3346802a81a8f2bd3c69cb2a1ca5a9]
+date_width=98
+num_width=50
+reconcile_width=18
+balance_width=90
+transfer_width=223
+debit_width=90
+credit_width=90
+
+[Window 1]
+PageCount=7
+FirstPage=1
+PageOrder=7;1;2;6;3;4;5;
+WindowPosition=112;0;
+WindowGeometry=1110;818;
+WindowMaximized=false
+ToolbarVisible=true
+SummarybarVisible=true
+StatusbarVisible=true
+
+[Page 1]
+PageType=GncPluginPageAccountTree
+PageName=Conti
+AccountTypes=-1
+ShowHidden=false
+ShowZeroTotal=true
+OpenAccount1=Attività
+OpenAccount2=Attività:Attività correnti
+OpenAccount3=Capitali
+OpenAccount4=Entrate
+OpenAccount5=Passività
+OpenAccount6=Uscite
+OpenAccount7=Uscite:Servizi
+NumberOfOpenAccounts=7
+
+[Page 2]
+PageType=GncPluginPageRegister
+PageName=Liquidità
+RegisterType=Account
+AccountName=Attività:Attività correnti:Liquidità
+RegisterStyle=Ledger
+DoubleLineMode=true
+
+[Page 3]
+PageType=GncPluginPageRegister
+PageName=Ristorazione
+RegisterType=Account
+AccountName=Uscite:Ristorazione
+RegisterStyle=Ledger
+DoubleLineMode=true
+
+[Page 4]
+PageType=GncPluginPageRegister
+PageName=Prestiti (AVERE)
+RegisterType=Account
+AccountName=Attività:Prestiti (AVERE)
+RegisterStyle=Ledger
+DoubleLineMode=true
+
+[Page 5]
+PageType=GncPluginPageReport
+PageName=Istogramma uscite nei trimestri
+SchemeOptions=(let ((options (gnc:report-template-new-options/report-guid "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time"))) (let ((option (gnc:lookup-option options                                  "General"                                  "Report name")))   ((lambda (option) (if option ((gnc:option-setter option) "Istogramma uscite nei trimestri"))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "End Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(relative . today)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Start Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1420066800 . 0)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Step Size")))   ((lambda (option) (if option ((gnc:option-setter option) 'QuarterDelta))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Maximum Bars")))   ((lambda (option) (if option ((gnc:option-setter option) 10.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Height")))   ((lambda (option) (if option ((gnc:option-setter option) 600.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Width")))   ((lambda (option) (if option ((gnc:option-setter option) 1024.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show table")))   ((lambda (option) (if option ((gnc:option-setter option) #t))) option)) (if (defined? 'gnc:restore-report-by-guid-with-custom-template)   (gnc:restore-report-by-guid-with-custom-template 11 "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time" "9a723c9d3f60bd8d53eaa1e0be64379b" options)   (gnc:restore-report-by-guid 11 "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time" options)) )
+
+[Page 6]
+PageType=GncPluginPageRegister
+PageName=Conto corrente
+RegisterType=Account
+AccountName=Attività:Attività correnti:Conto corrente
+RegisterStyle=Ledger
+DoubleLineMode=true
+
+[Page 7]
+PageType=GncPluginPageReport
+PageName=Istogramma uscite nei trimestri
+SchemeOptions=(let ((options (gnc:report-template-new-options/report-guid "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time"))) (let ((option (gnc:lookup-option options                                  "General"                                  "Report name")))   ((lambda (option) (if option ((gnc:option-setter option) "Istogramma uscite nei trimestri"))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "End Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(relative . today)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Start Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1420066800 . 0)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Step Size")))   ((lambda (option) (if option ((gnc:option-setter option) 'QuarterDelta))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Maximum Bars")))   ((lambda (option) (if option ((gnc:option-setter option) 10.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Height")))   ((lambda (option) (if option ((gnc:option-setter option) 600.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Width")))   ((lambda (option) (if option ((gnc:option-setter option) 1024.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show table")))   ((lambda (option) (if option ((gnc:option-setter option) #t))) option)) (if (defined? 'gnc:restore-report-by-guid-with-custom-template)   (gnc:restore-report-by-guid-with-custom-template 61 "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time" "9a723c9d3f60bd8d53eaa1e0be64379b" options)   (gnc:restore-report-by-guid 61 "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time" options)) )
