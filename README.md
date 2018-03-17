@@ -14,7 +14,27 @@ chsh -s $(which zsh)
 ```
 sudo apt-get install git git-crypt
 cd $HOME
-git clone git@github.com:giursino/shellursino.git
+
+git init
+git remote add origin git@github.com:giursino/shellursino.git
+git fetch
+[
+  git reset origin/master  # this is required if files in the non-empty directory are in the repo
+  git checkout -t origin/master
+]
+# Questi due ultimi comandi non hanno funzionato, ho usato
+git reset --hard
+git checkout
+
+# Poi si deve sbloccare il repo
+git-crypt unlock <CHIAVE>
+
+# Verificare di aver accessibili le chiavi SSH:
+cat .ssh/id-rsa
+
+# Verificare permessi 640 della cartella e chiavi SSH
+chmod go= .ssh/*
+
 ```
 
 ## Criptare file
