@@ -1,0 +1,8 @@
+# per evitare di icludere se stesso
+.gitattributes !filter !diff
+
+# qualsiasi file con estensione key
+*.key filter=git-crypt diff=git-crypt
+
+# tutte le chiavi standard di OpenSSH
+id_rsa* filter=git-crypt diff=git-crypt
