@@ -23,8 +23,8 @@ UUID=17c4cf24-f1ab-4560-a072-d075f17b5790 	/mnt/virtualbox-data		ext3	defaults	0
 /mnt/virtualbox-data/virtualbox-giursino	/home/giursino/.VirtualBox	ext3	  rw,bind	0	0
 
 ## NasGG (Synology DS216j)
-//nasgg.local/home/Documenti	/home/giursino/Documenti	cifs	iocharset=utf8,credentials=/etc/samba/smbcredentials.giursino,dir_mode=0777,file_mode=0777,rw,uid=1000,gid=1000,noexec 0 0
-//nasgg.local/photo		/home/giursino/Immagini/Foto	cifs	iocharset=utf8,credentials=/etc/samba/smbcredentials.giursino,dir_mode=0777,file_mode=0777,rw,uid=1000,gid=1000,noexec 0 0
-//nasgg.local/video		/home/giursino/Video		cifs	iocharset=utf8,credentials=/etc/samba/smbcredentials.giursino,dir_mode=0777,file_mode=0777,rw,uid=1000,gid=1000,noexec 0 0
-//nasgg.local/music		/home/giursino/Musica		cifs	iocharset=utf8,credentials=/etc/samba/smbcredentials.giursino,dir_mode=0777,file_mode=0777,rw,uid=1000,gid=1000,noexec 0 0
+//nasgg/home/Documenti	/home/giursino/Documenti	cifs	_netdev,iocharset=utf8,credentials=/home/giursino/etc/samba/smbcredentials.giursino,dir_mode=0777,file_mode=0777,rw,uid=1000,gid=1000,noexec 0 0
+//nasgg/photo		/home/giursino/Immagini/Foto	cifs	_netdev,iocharset=utf8,credentials=/home/giursino/etc/samba/smbcredentials.giursino,dir_mode=0777,file_mode=0777,rw,uid=1000,gid=1000,noexec 0 0
+//nasgg/video		/home/giursino/Video		cifs	_netdev,iocharset=utf8,credentials=/home/giursino/etc/samba/smbcredentials.giursino,dir_mode=0777,file_mode=0777,rw,uid=1000,gid=1000,noexec 0 0
+//nasgg/music		/home/giursino/Musica		cifs	_netdev,iocharset=utf8,credentials=/home/giursino/etc/samba/smbcredentials.giursino,dir_mode=0777,file_mode=0777,rw,uid=1000,gid=1000,noexec 0 0
 
