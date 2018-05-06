@@ -1,3 +1,4 @@
+Biblioteca
 Immagini
 Documenti
 Dropbox
@@ -8,6 +9,8 @@ Scaricati
 Scrivania
 Video
 Workspace
+VirtualBox
+ebook
 
 .ICEauthority
 .Xauthority
@@ -47,5 +50,6 @@ Workspace
 .java
 .oracle_jre_usage
 .swt
-VirtualBox
-
+.gimp-2.8
+.grsync
+.thumbnails
