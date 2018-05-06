@@ -9,6 +9,4 @@ echo "Controllo assenza Calibre..."
 pgrep -x calibre && stop-calibre
 
 echo "Inizio la sincronizzazione..."
-exit 0
-
 rsync -av --delete -e ssh $HOME/Biblioteca/ "giursino@nasgg::ebook/Romanzi/Biblioteca di Calibre - READ ONLY/"
