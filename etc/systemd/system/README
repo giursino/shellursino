@@ -1,0 +1,14 @@
+Ho creato questo file in modo da eseguire il backup ad ogni chiusura del pc.
+
+Per attivare questo servizio bisogna:
+
+
+$ sudo systemctl daemon-reload
+$ sudo systemctl status backup-giursino-home.service
+$ sudo systemctl enable backup-giursino-home.service
+
+
+Per testare:
+$ sudo systemctl start backup-giursino-home.service
+$ sudo systemctl status backup-giursino-home.service
+$ sudo systemctl stop backup-giursino-home.service

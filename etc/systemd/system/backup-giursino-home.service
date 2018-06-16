@@ -1,0 +1,12 @@
+[Unit]
+Description=Backup home directory to NAS
+
+[Service]
+User=giursino
+Group=giursino
+Type=oneshot
+RemainAfterExit=true
+ExecStop=/home/giursino/bin/backup-home.sh
+
+[Install]
+WantedBy=multi-user.target
