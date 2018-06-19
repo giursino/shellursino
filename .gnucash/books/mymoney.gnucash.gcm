@@ -531,10 +531,55 @@ transfer_width=223
 debit_width=90
 credit_width=90
 
+[Register 97981bde60117a1e0b4d2d3b80aa23af]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register fdbee26c69dda42030e93d447b85f23e]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register d7c8bb1b8fa3dec8d271bd53815cbf5b]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 4b927e6c04fcbd38a770773cbda3522d]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register ea3c34bba271dbac5f7e9ca7cef66e8d]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
 [Window 1]
-PageCount=7
+PageCount=10
 FirstPage=1
-PageOrder=1;7;6;2;3;4;5;
+PageOrder=10;3;6;7;8;1;2;9;5;4;
 WindowPosition=30;20;
 WindowGeometry=1194;796;
 WindowMaximized=false
@@ -548,6 +593,7 @@ PageName=Conti
 AccountTypes=-1
 ShowHidden=false
 ShowZeroTotal=true
+SelectedAccount=Uscite:Vacanze
 OpenAccount1=Attività
 OpenAccount2=Attività:Attività correnti
 OpenAccount3=Attività:Attività correnti:Conto corrente
@@ -562,15 +608,15 @@ OpenAccount11=Entrate:Entrate extra
 OpenAccount12=Entrate:Entrate Lavorative
 OpenAccount13=Entrate:Regali Ricevuti
 OpenAccount14=Entrate:Vendita oggetti
-OpenAccount15=Passività
-OpenAccount16=Passività:Carta credito
-OpenAccount17=Passività:Prestiti
-OpenAccount18=Uscite
-OpenAccount19=Uscite:Casa
-OpenAccount20=Uscite:Imprevisti
-OpenAccount21=Uscite:Mobilità
-OpenAccount22=Uscite:Mobilità:Auto
-OpenAccount23=Uscite:Sanità
+OpenAccount15=Uscite
+OpenAccount16=Uscite:Casa
+OpenAccount17=Uscite:Imprevisti
+OpenAccount18=Uscite:Mobilità
+OpenAccount19=Uscite:Mobilità:Auto
+OpenAccount20=Uscite:Sanità
+OpenAccount21=Uscite:Sport
+OpenAccount22=Uscite:Sport:Invernali
+OpenAccount23=Uscite:Sport:Trekking
 OpenAccount24=Uscite:Tempo Libero
 OpenAccount25=Uscite:Vacanze
 NumberOfOpenAccounts=25
@@ -601,9 +647,9 @@ DoubleLineMode=false
 
 [Page 5]
 PageType=GncPluginPageRegister
-PageName=Deutsche Bank
+PageName=Personali
 RegisterType=Account
-AccountName=Passività:Carta credito:Deutsche Bank
+AccountName=Passività:Prestiti:Personali
 RegisterStyle=Ledger
 DoubleLineMode=true
 
@@ -616,6 +662,30 @@ RegisterStyle=Ledger
 DoubleLineMode=true
 
 [Page 7]
+PageType=GncPluginPageRegister
+PageName=Deutsche Bank
+RegisterType=Account
+AccountName=Passività:Carta credito:Deutsche Bank
+RegisterStyle=Ledger
+DoubleLineMode=true
+
+[Page 8]
 PageType=GncPluginPageReport
 PageName=Profitto annuale
 SchemeOptions=(let ((options (gnc:report-template-new-options/report-guid "d5adcc61c62e4b8684dd8907448d7900" "Average Balance"))) (let ((option (gnc:lookup-option options                                  "General"                                  "Report name")))   ((lambda (option) (if option ((gnc:option-setter option) "Profitto annuale"))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Start Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1136070000 . 0)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Step Size")))   ((lambda (option) (if option ((gnc:option-setter option) 'YearDelta))) option)) (let ((option (gnc:lookup-option options                                  "Accounts"                                  "Exclude transactions between selected accounts")))   ((lambda (option) (if option ((gnc:option-setter option) #t))) option)) (let ((option (gnc:lookup-option options                                  "Accounts"                                  "Accounts")))   ((lambda (option) (if option ((gnc:option-setter option) '("95859337487c183ae2921c29f4c54151" "3c15d8842ca23647774224c3cb7a976e")))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Type")))   ((lambda (option) (if option ((gnc:option-setter option) '(GainPlot)))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Width")))   ((lambda (option) (if option ((gnc:option-setter option) 1024.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show table")))   ((lambda (option) (if option ((gnc:option-setter option) #t))) option)) (if (defined? 'gnc:restore-report-by-guid-with-custom-template)   (gnc:restore-report-by-guid-with-custom-template 9 "d5adcc61c62e4b8684dd8907448d7900" "Average Balance" "5971b00bf2db37431b0485738659b978" options)   (gnc:restore-report-by-guid 9 "d5adcc61c62e4b8684dd8907448d7900" "Average Balance" options)) )
+
+[Page 9]
+PageType=GncPluginPageRegister
+PageName=Sbilancio-EUR
+RegisterType=Account
+AccountName=Sbilancio-EUR
+RegisterStyle=Ledger
+DoubleLineMode=false
+
+[Page 10]
+PageType=GncPluginPageRegister
+PageName=Vacanze
+RegisterType=Account
+AccountName=Uscite:Vacanze
+RegisterStyle=Ledger
+DoubleLineMode=false
