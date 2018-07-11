@@ -3,16 +3,15 @@ BookGuid=3a10a774e6561463703db3b757b84fa4
 WindowCount=1
 
 [Account Hierarchy]
-column_order=name;type;commodity;account-code;description;lastnum;present;present_report;balance;balance_report;balance-period;cleared;cleared_report;reconciled;reconciled_report;last-recon-date;future_min;future_min_report;total;total_report;total-period;account-color;notes;tax-info;placeholder;
-name_width=264
-type_visible=false
-type_width=0
+column_order=name;type;commodity;description;account-code;total;total_report;lastnum;present;present_report;balance;balance_report;balance-period;cleared;cleared_report;reconciled;reconciled_report;last-recon-date;future_min;future_min_report;total-period;account-color;notes;tax-info;placeholder;
+name_width=447
+type_visible=true
 commodity_visible=false
 commodity_width=0
 account-code_visible=false
 account-code_width=0
 description_visible=true
-description_width=631
+description_width=516
 lastnum_visible=false
 lastnum_width=0
 present_visible=false
@@ -39,9 +38,9 @@ future_min_visible=false
 future_min_width=0
 future_min_report_visible=false
 future_min_report_width=0
-total_visible=true
-total_report_visible=false
-total_report_width=0
+total_visible=false
+total_report_visible=true
+total_report_width=196
 total-period_visible=false
 total-period_width=0
 account-color_visible=false
@@ -51,7 +50,7 @@ notes_width=0
 tax-info_visible=false
 tax-info_width=0
 placeholder_visible=false
-total_width=241
+total_width=0
 
 [Register c4670fb9d5729382a1be3bbeed9dea84]
 date_width=92
@@ -576,12 +575,178 @@ transfer_width=200
 debit_width=79
 credit_width=79
 
+[dialogs/edit_commodities]
+sort_column=name
+column_order=namespace;symbol;name;printname;user_symbol;uniquename;cusip_code;fraction;quote_flag;quote_source;quote_timezone;
+symbol_visible=true
+name_visible=true
+printname_visible=false
+printname_width=0
+user_symbol_visible=true
+uniquename_visible=false
+uniquename_width=0
+cusip_code_visible=true
+fraction_visible=true
+quote_flag_visible=false
+quote_source_visible=false
+quote_timezone_visible=true
+symbol_width=141
+name_width=483
+user_symbol_width=159
+quote_source_width=0
+
+[Register 48b60b6ac4b884a97ff270f49f0002cc]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+shares_width=79
+price_width=79
+
+[Register fb776eecdb0e0edb89734f9bcd80ab87]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+shares_width=79
+price_width=79
+
+[Register e028a4f811624b1c197a9d68c9f5e518]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+shares_width=79
+price_width=79
+
+[Register 7fb2f690ec5c6b2335a2561b8c954748]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+shares_width=79
+price_width=79
+
+[Register eaca822238779c8cbf673e712a4c31df]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+shares_width=79
+price_width=79
+
+[Register 8391b990627842f178db26c3a9e2a34f]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+shares_width=79
+price_width=79
+
+[Register dccdef2118d2573b6de3c243ab8d508b]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register b1b852427b0e3e13c61ce4429d9f8969]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+shares_width=79
+price_width=79
+
+[Register 49378b1bd63fac8abe473b1bb37ae623]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+shares_width=79
+price_width=79
+
+[Register 2444b921d4d5b516e3b5dea5c68c4412]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 4cf9ed81f047b3510c462a94957b0f2a]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+shares_width=79
+price_width=79
+
+[Register bbc6a658140a1c776b61638b8db9f340]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+shares_width=79
+price_width=79
+
+[Register 87ea3d4e696aeca83e443210919ce95f]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 75cd99636fa2ee9c60347f559e808afc]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
 [Window 1]
-PageCount=10
+PageCount=6
 FirstPage=1
-PageOrder=10;3;6;7;8;1;2;9;5;4;
+PageOrder=1;6;2;5;3;4;
 WindowPosition=30;20;
-WindowGeometry=1194;796;
+WindowGeometry=1359;796;
 WindowMaximized=false
 ToolbarVisible=true
 SummarybarVisible=true
@@ -593,33 +758,25 @@ PageName=Conti
 AccountTypes=-1
 ShowHidden=false
 ShowZeroTotal=true
-SelectedAccount=Uscite:Vacanze
+SelectedAccount=Passività:Prestiti:Personali
 OpenAccount1=Attività
 OpenAccount2=Attività:Attività correnti
 OpenAccount3=Attività:Attività correnti:Conto corrente
 OpenAccount4=Attività:Attività correnti:Denaro Prestato
 OpenAccount5=Attività:Attività correnti:Denaro Prestato:Anticipo
 OpenAccount6=Attività:Attività correnti:Liquidità
-OpenAccount7=Attività:Attività correnti:Liquidità:Busta
-OpenAccount8=Attività:Investimenti
+OpenAccount7=Attività:Investimenti
+OpenAccount8=Attività:Investimenti:Fondi comuni
 OpenAccount9=Capitali
 OpenAccount10=Entrate
 OpenAccount11=Entrate:Entrate extra
 OpenAccount12=Entrate:Entrate Lavorative
 OpenAccount13=Entrate:Regali Ricevuti
 OpenAccount14=Entrate:Vendita oggetti
-OpenAccount15=Uscite
-OpenAccount16=Uscite:Casa
-OpenAccount17=Uscite:Imprevisti
-OpenAccount18=Uscite:Mobilità
-OpenAccount19=Uscite:Mobilità:Auto
-OpenAccount20=Uscite:Sanità
-OpenAccount21=Uscite:Sport
-OpenAccount22=Uscite:Sport:Invernali
-OpenAccount23=Uscite:Sport:Trekking
-OpenAccount24=Uscite:Tempo Libero
-OpenAccount25=Uscite:Vacanze
-NumberOfOpenAccounts=25
+OpenAccount15=Passività
+OpenAccount16=Passività:Prestiti
+OpenAccount17=Uscite
+NumberOfOpenAccounts=17
 
 [Page 2]
 PageType=GncPluginPageRegister
@@ -647,45 +804,13 @@ DoubleLineMode=false
 
 [Page 5]
 PageType=GncPluginPageRegister
-PageName=Personali
-RegisterType=Account
-AccountName=Passività:Prestiti:Personali
-RegisterStyle=Ledger
-DoubleLineMode=true
-
-[Page 6]
-PageType=GncPluginPageRegister
 PageName=Fineco C/C
 RegisterType=Account
 AccountName=Attività:Attività correnti:Conto corrente:Fineco C/C
-RegisterStyle=Ledger
+RegisterStyle=Journal
 DoubleLineMode=true
 
-[Page 7]
-PageType=GncPluginPageRegister
-PageName=Deutsche Bank
-RegisterType=Account
-AccountName=Passività:Carta credito:Deutsche Bank
-RegisterStyle=Ledger
-DoubleLineMode=true
-
-[Page 8]
+[Page 6]
 PageType=GncPluginPageReport
-PageName=Profitto annuale
-SchemeOptions=(let ((options (gnc:report-template-new-options/report-guid "d5adcc61c62e4b8684dd8907448d7900" "Average Balance"))) (let ((option (gnc:lookup-option options                                  "General"                                  "Report name")))   ((lambda (option) (if option ((gnc:option-setter option) "Profitto annuale"))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Start Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1136070000 . 0)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Step Size")))   ((lambda (option) (if option ((gnc:option-setter option) 'YearDelta))) option)) (let ((option (gnc:lookup-option options                                  "Accounts"                                  "Exclude transactions between selected accounts")))   ((lambda (option) (if option ((gnc:option-setter option) #t))) option)) (let ((option (gnc:lookup-option options                                  "Accounts"                                  "Accounts")))   ((lambda (option) (if option ((gnc:option-setter option) '("95859337487c183ae2921c29f4c54151" "3c15d8842ca23647774224c3cb7a976e")))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Type")))   ((lambda (option) (if option ((gnc:option-setter option) '(GainPlot)))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Width")))   ((lambda (option) (if option ((gnc:option-setter option) 1024.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show table")))   ((lambda (option) (if option ((gnc:option-setter option) #t))) option)) (if (defined? 'gnc:restore-report-by-guid-with-custom-template)   (gnc:restore-report-by-guid-with-custom-template 9 "d5adcc61c62e4b8684dd8907448d7900" "Average Balance" "5971b00bf2db37431b0485738659b978" options)   (gnc:restore-report-by-guid 9 "d5adcc61c62e4b8684dd8907448d7900" "Average Balance" options)) )
-
-[Page 9]
-PageType=GncPluginPageRegister
-PageName=Sbilancio-EUR
-RegisterType=Account
-AccountName=Sbilancio-EUR
-RegisterStyle=Ledger
-DoubleLineMode=false
-
-[Page 10]
-PageType=GncPluginPageRegister
-PageName=Vacanze
-RegisterType=Account
-AccountName=Uscite:Vacanze
-RegisterStyle=Ledger
-DoubleLineMode=false
+PageName=Portafoglio avanzato
+SchemeOptions=(let ((options (gnc:report-template-new-options/report-guid "21d7cfc59fc74f22887596ebde7e462d" "Advanced Portfolio"))) (let ((option (gnc:lookup-option options                                  "General"                                  "Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(relative . today)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Stylesheet")))   ((lambda (option) (if option ((gnc:option-setter option) 'Mio))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show ticker symbols")))   ((lambda (option) (if option ((gnc:option-setter option) #f))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show prices")))   ((lambda (option) (if option ((gnc:option-setter option) #f))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show number of shares")))   ((lambda (option) (if option ((gnc:option-setter option) #f))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show listings")))   ((lambda (option) (if option ((gnc:option-setter option) #f))) option)) (if (defined? 'gnc:restore-report-by-guid-with-custom-template)   (gnc:restore-report-by-guid-with-custom-template 71 "21d7cfc59fc74f22887596ebde7e462d" "Advanced Portfolio" "272d4a55a66b8d198a5fd0dde9c0e72d" options)   (gnc:restore-report-by-guid 71 "21d7cfc59fc74f22887596ebde7e462d" "Advanced Portfolio" options)) )

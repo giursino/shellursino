@@ -278,11 +278,20 @@ transfer_width=223
 debit_width=90
 credit_width=90
 
+[Register 9abd43097345c2e7026092645323b0ca]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
 [Window 1]
 PageCount=7
 FirstPage=1
-PageOrder=7;1;2;6;3;4;5;
-WindowPosition=112;0;
+PageOrder=1;6;7;3;2;4;5;
+WindowPosition=79;0;
 WindowGeometry=1110;818;
 WindowMaximized=false
 ToolbarVisible=true
@@ -295,6 +304,7 @@ PageName=Conti
 AccountTypes=-1
 ShowHidden=false
 ShowZeroTotal=true
+SelectedAccount=Sbilancio-EUR
 OpenAccount1=Attività
 OpenAccount2=Attività:Attività correnti
 OpenAccount3=Capitali

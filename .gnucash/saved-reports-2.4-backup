@@ -202,7 +202,7 @@
 (let ((option (gnc:lookup-option options
                                  "Accounts"
                                  "Accounts")))
-  ((lambda (option) (if option ((gnc:option-setter option) '("d4ae73deba2a529928800a82b425f2d3" "4ef6b447adb712781e5dc22da34a7cdd" "d28ce339f6d3cd64aef6a8eee722e66b" "c9111e7bdf2eb0dcd0191128e6a901e1" "bbd3ea596f066b3210fa196bda686e96" "dd5b35eaf1d34123c700eabb09950e23" "389d3b9babe8e55664b471497e8b25bf" "58a469c38ead1ab17c633ee0979ba479" "e92f5b76c9cede33cebd30b1e7bcc5d8" "88fb160f55d6891e16ceac9697d013a0" "96c7f129c196739a52f852905dca475d" "ea19abe9c5805d66eec10f9a91caaabf" "87ea3d4e696aeca83e443210919ce95f" "b9a48fd3837f5009e85cc53badfb737c" "ab93929792e02ee75cdf8ea227154f80" "54abfe5e1bf07f40198f5b13c10577f2" "12702e3c795bb04693970068a1dda914" "d686bdff8034af8b79cd292ac5366bc6" "d7c8bb1b8fa3dec8d271bd53815cbf5b" "7b4a40eba9a1c9b09564be1669f82dd0" "4f146a6c6dd80757db779760f17aff0f" "6c4c38a629554d57c9d96e145d50a0fb" "75cd99636fa2ee9c60347f559e808afc" "b4039228f69529ae10e29de52f1e482f" "914878a67e54d220b0baa33c13682007" "9f6295b8e178272457821b914594a87a" "4e1a99f731b1adefc8e792d757e1a1c9" "ce34ac358bcf709767f993cb01feca53" "f29c78e4623e75b047db72d0dcaf828d" "6149c68081d77ca871df844870e7d27b" "cc01029050b287304688d0f4b6ed90da" "a525cc622cc35693ee5c6d605afc5432" "4a00915d243aa4658e1afa4ca66ef84b" "4cb536ade6754ae664277c673cac1bf7" "af61fe4a5345671622d8d373ac319bc7" "ea3c34bba271dbac5f7e9ca7cef66e8d" "0c0d209e2ffc47bede1a354c38b608fc" "472f3d5afdc8961792387befca3612ee" "265865a16a5e968ca8e874e2cbbe6d5d" "6f6cbe372233fa5937866b5fe9b5911e" "0fa2ee99d3a0d37cfa996298d6e48f70" "4b927e6c04fcbd38a770773cbda3522d" "c59873d1fde209ff282c458892f9595e" "3ef5a7bef039934c36693dd2c5b37cd8" "f803da8977947350e5380ffe6d48d677" "41308de548a941d51dcf9b37178ff520" "b0221e8efb1276e16cb4a8346d06294c" "535869df35eb236e8f8c70d6e84c3237" "e780a649f9cab35d6084f0324e000775" "15201e76feb47fbc89ead8e40da5fd82" "eb6a44714184331d1056e8dd88d14b75" "97981bde60117a1e0b4d2d3b80aa23af" "f23c9547828983e3b534a97402b0b929" "6690a52aaa39f3ea31efcba935096f87" "4789d6917929bdfb148c48132442211d" "bf1a821836708702161fa1a273d92243" "59257c3d1e1f39fa4f7d414055ccf624" "feb225e9f5fcd9f0f92ee69fbc6e5ec3" "24c8fb770aa1d44c54328d1063db6200" "dcfd9dd51765fb682cab88e362767068" "f4dca28549eae117db059dc9c5dbfbf8" "a638ee5750b77c2e2c8725160380add7" "fdbee26c69dda42030e93d447b85f23e" "a90d0dcb625e7e8b6992f9a611c96eaf" "c8108eca731a1afdbe9fca2562f4f504" "b191ca726018d04077e6cf5f4ad1dca6" "c55f4c49d34581a83dbd698e35a8a99f" "154e4a28733453fdf7df7649dc9dd462" "97d1840c7bceef78864d01191c0a04a1" "4c0439f07d8a87c1e2d32d2f14a7f2cb" "beb75398cbc7a78b6490418804bab7bb" "31fa9995bd004dda3c4c833e12adff52" "27299836bcf5bb070496bf662f358b52" "8db0adaa8ce74e857b98576427f985ef" "917bc5bd534681cf653a67ebd7839280" "a6f579f7dac4fa30fbbdcaca5d93556b" "5572324be4f875b176ab5fa63a5a302b" "89ef741ceae7dd251fa5ec656d56684d" "c0416414dcb5858e73b62136491fbc61" "5fcce33e8f00060fd02184224f59acd3" "e9ae11535fbe440abefc7b71c8701e01")))) option))
+  ((lambda (option) (if option ((gnc:option-setter option) '("d4ae73deba2a529928800a82b425f2d3" "c9111e7bdf2eb0dcd0191128e6a901e1" "bbd3ea596f066b3210fa196bda686e96" "dd5b35eaf1d34123c700eabb09950e23" "389d3b9babe8e55664b471497e8b25bf" "58a469c38ead1ab17c633ee0979ba479" "e92f5b76c9cede33cebd30b1e7bcc5d8" "88fb160f55d6891e16ceac9697d013a0" "96c7f129c196739a52f852905dca475d" "ea19abe9c5805d66eec10f9a91caaabf" "87ea3d4e696aeca83e443210919ce95f" "b9a48fd3837f5009e85cc53badfb737c" "ab93929792e02ee75cdf8ea227154f80" "54abfe5e1bf07f40198f5b13c10577f2" "12702e3c795bb04693970068a1dda914" "d686bdff8034af8b79cd292ac5366bc6" "d7c8bb1b8fa3dec8d271bd53815cbf5b" "7b4a40eba9a1c9b09564be1669f82dd0" "4f146a6c6dd80757db779760f17aff0f" "6c4c38a629554d57c9d96e145d50a0fb" "75cd99636fa2ee9c60347f559e808afc" "b4039228f69529ae10e29de52f1e482f" "914878a67e54d220b0baa33c13682007" "9f6295b8e178272457821b914594a87a" "4e1a99f731b1adefc8e792d757e1a1c9" "ce34ac358bcf709767f993cb01feca53" "f29c78e4623e75b047db72d0dcaf828d" "6149c68081d77ca871df844870e7d27b" "cc01029050b287304688d0f4b6ed90da" "a525cc622cc35693ee5c6d605afc5432" "4a00915d243aa4658e1afa4ca66ef84b" "4cb536ade6754ae664277c673cac1bf7" "af61fe4a5345671622d8d373ac319bc7" "ea3c34bba271dbac5f7e9ca7cef66e8d" "0c0d209e2ffc47bede1a354c38b608fc" "472f3d5afdc8961792387befca3612ee" "265865a16a5e968ca8e874e2cbbe6d5d" "6f6cbe372233fa5937866b5fe9b5911e" "0fa2ee99d3a0d37cfa996298d6e48f70" "4b927e6c04fcbd38a770773cbda3522d" "c59873d1fde209ff282c458892f9595e" "3ef5a7bef039934c36693dd2c5b37cd8" "f803da8977947350e5380ffe6d48d677" "41308de548a941d51dcf9b37178ff520" "b0221e8efb1276e16cb4a8346d06294c" "535869df35eb236e8f8c70d6e84c3237" "e780a649f9cab35d6084f0324e000775" "15201e76feb47fbc89ead8e40da5fd82" "eb6a44714184331d1056e8dd88d14b75" "97981bde60117a1e0b4d2d3b80aa23af" "f23c9547828983e3b534a97402b0b929" "6690a52aaa39f3ea31efcba935096f87" "4789d6917929bdfb148c48132442211d" "bf1a821836708702161fa1a273d92243" "59257c3d1e1f39fa4f7d414055ccf624" "feb225e9f5fcd9f0f92ee69fbc6e5ec3" "24c8fb770aa1d44c54328d1063db6200" "dcfd9dd51765fb682cab88e362767068" "f4dca28549eae117db059dc9c5dbfbf8" "a638ee5750b77c2e2c8725160380add7" "fdbee26c69dda42030e93d447b85f23e" "a90d0dcb625e7e8b6992f9a611c96eaf" "c8108eca731a1afdbe9fca2562f4f504" "b191ca726018d04077e6cf5f4ad1dca6" "c55f4c49d34581a83dbd698e35a8a99f" "154e4a28733453fdf7df7649dc9dd462" "97d1840c7bceef78864d01191c0a04a1" "4c0439f07d8a87c1e2d32d2f14a7f2cb" "beb75398cbc7a78b6490418804bab7bb" "31fa9995bd004dda3c4c833e12adff52" "27299836bcf5bb070496bf662f358b52" "8db0adaa8ce74e857b98576427f985ef" "917bc5bd534681cf653a67ebd7839280" "a6f579f7dac4fa30fbbdcaca5d93556b" "5572324be4f875b176ab5fa63a5a302b" "89ef741ceae7dd251fa5ec656d56684d" "c0416414dcb5858e73b62136491fbc61" "5fcce33e8f00060fd02184224f59acd3" "e9ae11535fbe440abefc7b71c8701e01")))) option))
 
 
 ; Section: Display
@@ -240,78 +240,6 @@
   'version 1
   'name "Istogramma uscite negli anni (no mobilità, no matrimonio, no casa, no famiglia)"
   'report-guid "ee6d9be8fae6079da5f35ed0141bf36f"
-  'parent-type "b1f15b2052c149df93e698fe85a81ea6"
-  'options-generator options-gen
-  'menu-path (list gnc:menuname-custom)
-  'renderer (gnc:report-template-renderer/report-guid "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time")))
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Options for saved report "Istogramma uscite negli anni (no mobilità)", based on template "b1f15b2052c149df93e698fe85a81ea6"
-(let ()
- (define (options-gen)
-  (let ((options (gnc:report-template-new-options/report-guid "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time")))
-
-; Section: General
-
-(let ((option (gnc:lookup-option options
-                                 "General"
-                                 "Report name")))
-  ((lambda (option) (if option ((gnc:option-setter option) "Istogramma uscite negli anni (no mobilità)"))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "General"
-                                 "End Date")))
-  ((lambda (option) (if option ((gnc:option-setter option) '(relative . today)))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "General"
-                                 "Start Date")))
-  ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1167606000 . 0)))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "General"
-                                 "Step Size")))
-  ((lambda (option) (if option ((gnc:option-setter option) 'YearDelta))) option))
-
-
-; Section: Accounts
-
-
-; Section: Display
-
-(let ((option (gnc:lookup-option options
-                                 "Display"
-                                 "Use Stacked Bars")))
-  ((lambda (option) (if option ((gnc:option-setter option) #f))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "Display"
-                                 "Maximum Bars")))
-  ((lambda (option) (if option ((gnc:option-setter option) 8.0))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "Display"
-                                 "Plot Height")))
-  ((lambda (option) (if option ((gnc:option-setter option) 600.0))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "Display"
-                                 "Plot Width")))
-  ((lambda (option) (if option ((gnc:option-setter option) 1024.0))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "Display"
-                                 "Show table")))
-  ((lambda (option) (if option ((gnc:option-setter option) #t))) option))
-
-
-; Section: __report
-
-  options))
- (gnc:define-report 
-  'version 1
-  'name "Istogramma uscite negli anni (no mobilità)"
-  'report-guid "9a34e613d5470d97edd566560f249db2"
   'parent-type "b1f15b2052c149df93e698fe85a81ea6"
   'options-generator options-gen
   'menu-path (list gnc:menuname-custom)
@@ -834,6 +762,68 @@
   'renderer (gnc:report-template-renderer/report-guid "9bf1892805cb4336be6320fe48ce5446" "Expense Accounts")))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options for saved report "Torta uscite 2008", based on template "9bf1892805cb4336be6320fe48ce5446"
+(let ()
+ (define (options-gen)
+  (let ((options (gnc:report-template-new-options/report-guid "9bf1892805cb4336be6320fe48ce5446" "Expense Accounts")))
+
+; Section: General
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Stylesheet")))
+  ((lambda (option) (if option ((gnc:option-setter option) 'Mio))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Report name")))
+  ((lambda (option) (if option ((gnc:option-setter option) "Torta uscite 2008"))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "End Date")))
+  ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1230678000 . 0)))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Start Date")))
+  ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1199142000 . 0)))) option))
+
+
+; Section: Accounts
+
+
+; Section: Display
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Plot Height")))
+  ((lambda (option) (if option ((gnc:option-setter option) 600.0))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Maximum Slices")))
+  ((lambda (option) (if option ((gnc:option-setter option) 24.0))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Plot Width")))
+  ((lambda (option) (if option ((gnc:option-setter option) 1024.0))) option))
+
+
+; Section: __report
+
+  options))
+ (gnc:define-report 
+  'version 1
+  'name "Torta uscite 2008"
+  'report-guid "8184237c48682e73bdd8a9c072f0cfab"
+  'parent-type "9bf1892805cb4336be6320fe48ce5446"
+  'options-generator options-gen
+  'menu-path (list gnc:menuname-custom)
+  'renderer (gnc:report-template-renderer/report-guid "9bf1892805cb4336be6320fe48ce5446" "Expense Accounts")))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Options for saved report "Categorie (anno corrente)  - Comune", based on template "8758ba23984c40dea5527f5f0ca2779e"
 (let ()
  (define (options-gen)
@@ -909,130 +899,6 @@
   'renderer (gnc:report-template-renderer/report-guid "8758ba23984c40dea5527f5f0ca2779e" "Profit & Loss")))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Options for saved report "Torta uscite 2008", based on template "9bf1892805cb4336be6320fe48ce5446"
-(let ()
- (define (options-gen)
-  (let ((options (gnc:report-template-new-options/report-guid "9bf1892805cb4336be6320fe48ce5446" "Expense Accounts")))
-
-; Section: General
-
-(let ((option (gnc:lookup-option options
-                                 "General"
-                                 "Stylesheet")))
-  ((lambda (option) (if option ((gnc:option-setter option) 'Mio))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "General"
-                                 "Report name")))
-  ((lambda (option) (if option ((gnc:option-setter option) "Torta uscite 2008"))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "General"
-                                 "End Date")))
-  ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1230678000 . 0)))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "General"
-                                 "Start Date")))
-  ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1199142000 . 0)))) option))
-
-
-; Section: Accounts
-
-
-; Section: Display
-
-(let ((option (gnc:lookup-option options
-                                 "Display"
-                                 "Plot Height")))
-  ((lambda (option) (if option ((gnc:option-setter option) 600.0))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "Display"
-                                 "Maximum Slices")))
-  ((lambda (option) (if option ((gnc:option-setter option) 24.0))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "Display"
-                                 "Plot Width")))
-  ((lambda (option) (if option ((gnc:option-setter option) 1024.0))) option))
-
-
-; Section: __report
-
-  options))
- (gnc:define-report 
-  'version 1
-  'name "Torta uscite 2008"
-  'report-guid "8184237c48682e73bdd8a9c072f0cfab"
-  'parent-type "9bf1892805cb4336be6320fe48ce5446"
-  'options-generator options-gen
-  'menu-path (list gnc:menuname-custom)
-  'renderer (gnc:report-template-renderer/report-guid "9bf1892805cb4336be6320fe48ce5446" "Expense Accounts")))
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Options for saved report "Torta uscite 2013", based on template "9bf1892805cb4336be6320fe48ce5446"
-(let ()
- (define (options-gen)
-  (let ((options (gnc:report-template-new-options/report-guid "9bf1892805cb4336be6320fe48ce5446" "Expense Accounts")))
-
-; Section: General
-
-(let ((option (gnc:lookup-option options
-                                 "General"
-                                 "Stylesheet")))
-  ((lambda (option) (if option ((gnc:option-setter option) 'Mio))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "General"
-                                 "Report name")))
-  ((lambda (option) (if option ((gnc:option-setter option) "Torta uscite 2013"))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "General"
-                                 "End Date")))
-  ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1388444400 . 0)))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "General"
-                                 "Start Date")))
-  ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1356994800 . 0)))) option))
-
-
-; Section: Accounts
-
-
-; Section: Display
-
-(let ((option (gnc:lookup-option options
-                                 "Display"
-                                 "Plot Height")))
-  ((lambda (option) (if option ((gnc:option-setter option) 600.0))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "Display"
-                                 "Maximum Slices")))
-  ((lambda (option) (if option ((gnc:option-setter option) 24.0))) option))
-
-(let ((option (gnc:lookup-option options
-                                 "Display"
-                                 "Plot Width")))
-  ((lambda (option) (if option ((gnc:option-setter option) 1024.0))) option))
-
-
-; Section: __report
-
-  options))
- (gnc:define-report 
-  'version 1
-  'name "Torta uscite 2013"
-  'report-guid "2275566cd2dde2f8c2bfe43cf2e949bd"
-  'parent-type "9bf1892805cb4336be6320fe48ce5446"
-  'options-generator options-gen
-  'menu-path (list gnc:menuname-custom)
-  'renderer (gnc:report-template-renderer/report-guid "9bf1892805cb4336be6320fe48ce5446" "Expense Accounts")))
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Options for saved report "Categorie (anno corrente) - Giuseppe", based on template "8758ba23984c40dea5527f5f0ca2779e"
 (let ()
  (define (options-gen)
@@ -1096,6 +962,68 @@
   'options-generator options-gen
   'menu-path (list gnc:menuname-custom)
   'renderer (gnc:report-template-renderer/report-guid "8758ba23984c40dea5527f5f0ca2779e" "Profit & Loss")))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options for saved report "Torta uscite 2013", based on template "9bf1892805cb4336be6320fe48ce5446"
+(let ()
+ (define (options-gen)
+  (let ((options (gnc:report-template-new-options/report-guid "9bf1892805cb4336be6320fe48ce5446" "Expense Accounts")))
+
+; Section: General
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Stylesheet")))
+  ((lambda (option) (if option ((gnc:option-setter option) 'Mio))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Report name")))
+  ((lambda (option) (if option ((gnc:option-setter option) "Torta uscite 2013"))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "End Date")))
+  ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1388444400 . 0)))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Start Date")))
+  ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1356994800 . 0)))) option))
+
+
+; Section: Accounts
+
+
+; Section: Display
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Plot Height")))
+  ((lambda (option) (if option ((gnc:option-setter option) 600.0))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Maximum Slices")))
+  ((lambda (option) (if option ((gnc:option-setter option) 24.0))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Plot Width")))
+  ((lambda (option) (if option ((gnc:option-setter option) 1024.0))) option))
+
+
+; Section: __report
+
+  options))
+ (gnc:define-report 
+  'version 1
+  'name "Torta uscite 2013"
+  'report-guid "2275566cd2dde2f8c2bfe43cf2e949bd"
+  'parent-type "9bf1892805cb4336be6320fe48ce5446"
+  'options-generator options-gen
+  'menu-path (list gnc:menuname-custom)
+  'renderer (gnc:report-template-renderer/report-guid "9bf1892805cb4336be6320fe48ce5446" "Expense Accounts")))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Options for saved report "Torta uscite 2010", based on template "9bf1892805cb4336be6320fe48ce5446"
@@ -1227,6 +1155,65 @@
   'options-generator options-gen
   'menu-path (list gnc:menuname-custom)
   'renderer (gnc:report-template-renderer/report-guid "cbba1696c8c24744848062c7f1cf4a72" "Net Worth Barchart")))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options for saved report "Portafoglio avanzato", based on template "21d7cfc59fc74f22887596ebde7e462d"
+(let ()
+ (define (options-gen)
+  (let ((options (gnc:report-template-new-options/report-guid "21d7cfc59fc74f22887596ebde7e462d" "Advanced Portfolio")))
+
+; Section: General
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Date")))
+  ((lambda (option) (if option ((gnc:option-setter option) '(relative . today)))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Stylesheet")))
+  ((lambda (option) (if option ((gnc:option-setter option) 'Mio))) option))
+
+
+; Section: Accounts
+
+(let ((option (gnc:lookup-option options
+                                 "Accounts"
+                                 "Include accounts with no shares")))
+  ((lambda (option) (if option ((gnc:option-setter option) #t))) option))
+
+
+; Section: Display
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Show ticker symbols")))
+  ((lambda (option) (if option ((gnc:option-setter option) #f))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Show prices")))
+  ((lambda (option) (if option ((gnc:option-setter option) #f))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Show number of shares")))
+  ((lambda (option) (if option ((gnc:option-setter option) #f))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Show listings")))
+  ((lambda (option) (if option ((gnc:option-setter option) #f))) option))
+
+  options))
+ (gnc:define-report 
+  'version 1
+  'name "Portafoglio avanzato"
+  'report-guid "272d4a55a66b8d198a5fd0dde9c0e72d"
+  'parent-type "21d7cfc59fc74f22887596ebde7e462d"
+  'options-generator options-gen
+  'menu-path (list gnc:menuname-custom)
+  'renderer (gnc:report-template-renderer/report-guid "21d7cfc59fc74f22887596ebde7e462d" "Advanced Portfolio")))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Options for saved report "Torta uscite 2007", based on template "9bf1892805cb4336be6320fe48ce5446"
