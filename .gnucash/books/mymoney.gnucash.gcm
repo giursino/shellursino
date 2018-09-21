@@ -744,7 +744,7 @@ credit_width=79
 [Window 1]
 PageCount=6
 FirstPage=1
-PageOrder=1;6;2;5;3;4;
+PageOrder=2;1;6;4;3;5;
 WindowPosition=30;20;
 WindowGeometry=1359;796;
 WindowMaximized=false
@@ -758,7 +758,7 @@ PageName=Conti
 AccountTypes=-1
 ShowHidden=false
 ShowZeroTotal=true
-SelectedAccount=Passività:Prestiti:Personali
+SelectedAccount=Attività:Attività correnti:Conto corrente:Paypal
 OpenAccount1=Attività
 OpenAccount2=Attività:Attività correnti
 OpenAccount3=Attività:Attività correnti:Conto corrente
@@ -776,7 +776,8 @@ OpenAccount14=Entrate:Vendita oggetti
 OpenAccount15=Passività
 OpenAccount16=Passività:Prestiti
 OpenAccount17=Uscite
-NumberOfOpenAccounts=17
+OpenAccount18=Uscite:Sanità
+NumberOfOpenAccounts=18
 
 [Page 2]
 PageType=GncPluginPageRegister
@@ -788,21 +789,13 @@ DoubleLineMode=true
 
 [Page 3]
 PageType=GncPluginPageRegister
-PageName=I Miei Prestiti
-RegisterType=Account
-AccountName=Attività:Attività correnti:Denaro Prestato:I Miei Prestiti
-RegisterStyle=Ledger
-DoubleLineMode=true
-
-[Page 4]
-PageType=GncPluginPageRegister
 PageName=Ristorazione
 RegisterType=Account
 AccountName=Uscite:Tempo Libero:Ristorazione
 RegisterStyle=Ledger
 DoubleLineMode=false
 
-[Page 5]
+[Page 4]
 PageType=GncPluginPageRegister
 PageName=Fineco C/C
 RegisterType=Account
@@ -810,7 +803,15 @@ AccountName=Attività:Attività correnti:Conto corrente:Fineco C/C
 RegisterStyle=Journal
 DoubleLineMode=true
 
-[Page 6]
+[Page 5]
 PageType=GncPluginPageReport
 PageName=Portafoglio avanzato
-SchemeOptions=(let ((options (gnc:report-template-new-options/report-guid "21d7cfc59fc74f22887596ebde7e462d" "Advanced Portfolio"))) (let ((option (gnc:lookup-option options                                  "General"                                  "Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(relative . today)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Stylesheet")))   ((lambda (option) (if option ((gnc:option-setter option) 'Mio))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show ticker symbols")))   ((lambda (option) (if option ((gnc:option-setter option) #f))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show prices")))   ((lambda (option) (if option ((gnc:option-setter option) #f))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show number of shares")))   ((lambda (option) (if option ((gnc:option-setter option) #f))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show listings")))   ((lambda (option) (if option ((gnc:option-setter option) #f))) option)) (if (defined? 'gnc:restore-report-by-guid-with-custom-template)   (gnc:restore-report-by-guid-with-custom-template 71 "21d7cfc59fc74f22887596ebde7e462d" "Advanced Portfolio" "272d4a55a66b8d198a5fd0dde9c0e72d" options)   (gnc:restore-report-by-guid 71 "21d7cfc59fc74f22887596ebde7e462d" "Advanced Portfolio" options)) )
+SchemeOptions=(let ((options (gnc:report-template-new-options/report-guid "21d7cfc59fc74f22887596ebde7e462d" "Advanced Portfolio"))) (let ((option (gnc:lookup-option options                                  "General"                                  "Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(relative . today)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Stylesheet")))   ((lambda (option) (if option ((gnc:option-setter option) 'Mio))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show ticker symbols")))   ((lambda (option) (if option ((gnc:option-setter option) #f))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show prices")))   ((lambda (option) (if option ((gnc:option-setter option) #f))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show number of shares")))   ((lambda (option) (if option ((gnc:option-setter option) #f))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show listings")))   ((lambda (option) (if option ((gnc:option-setter option) #f))) option)) (if (defined? 'gnc:restore-report-by-guid-with-custom-template)   (gnc:restore-report-by-guid-with-custom-template 0 "21d7cfc59fc74f22887596ebde7e462d" "Advanced Portfolio" "272d4a55a66b8d198a5fd0dde9c0e72d" options)   (gnc:restore-report-by-guid 0 "21d7cfc59fc74f22887596ebde7e462d" "Advanced Portfolio" options)) )
+
+[Page 6]
+PageType=GncPluginPageRegister
+PageName=I Miei Prestiti
+RegisterType=Account
+AccountName=Attività:Attività correnti:Denaro Prestato:I Miei Prestiti
+RegisterStyle=Ledger
+DoubleLineMode=false
