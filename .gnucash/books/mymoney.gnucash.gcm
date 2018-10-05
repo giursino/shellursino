@@ -744,7 +744,7 @@ credit_width=79
 [Window 1]
 PageCount=6
 FirstPage=1
-PageOrder=2;1;6;4;3;5;
+PageOrder=1;6;2;4;3;5;
 WindowPosition=30;20;
 WindowGeometry=1359;796;
 WindowMaximized=false
@@ -758,7 +758,7 @@ PageName=Conti
 AccountTypes=-1
 ShowHidden=false
 ShowZeroTotal=true
-SelectedAccount=Attività:Attività correnti:Conto corrente:Paypal
+SelectedAccount=Uscite:Mobilità:Auto:Assicurazione
 OpenAccount1=Attività
 OpenAccount2=Attività:Attività correnti
 OpenAccount3=Attività:Attività correnti:Conto corrente
@@ -776,8 +776,10 @@ OpenAccount14=Entrate:Vendita oggetti
 OpenAccount15=Passività
 OpenAccount16=Passività:Prestiti
 OpenAccount17=Uscite
-OpenAccount18=Uscite:Sanità
-NumberOfOpenAccounts=18
+OpenAccount18=Uscite:Mobilità
+OpenAccount19=Uscite:Mobilità:Auto
+OpenAccount20=Uscite:Sanità
+NumberOfOpenAccounts=20
 
 [Page 2]
 PageType=GncPluginPageRegister

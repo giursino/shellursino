@@ -299,7 +299,7 @@ credit_width=79
 [Window 1]
 PageCount=6
 FirstPage=1
-PageOrder=6;2;3;4;5;1;
+PageOrder=1;6;2;3;4;5;
 WindowPosition=79;0;
 WindowGeometry=1110;818;
 WindowMaximized=false

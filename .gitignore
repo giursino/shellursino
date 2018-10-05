@@ -62,3 +62,6 @@ snx.elg
 qlgt.db
 .var
 .thunderbird
+.ssh/authorized_keys
+.gnucash/books/conto-comune.gnucash.gcm
+.gnucash/books/mymoney.gnucash.gcm

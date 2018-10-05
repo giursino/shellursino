@@ -1,0 +1,5 @@
+#check for SSH sessions, and prevent suspending:
+if [ "$(who | grep -cv "(:")" -gt 0 ]; then
+    echo "SSH session(s) are on. Not suspending."
+    exit 1
+fi
