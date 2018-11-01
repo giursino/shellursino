@@ -296,13 +296,49 @@ transfer_width=200
 debit_width=79
 credit_width=79
 
+[Register 3bdef28191967df6e49258ede1f70ba0]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register 845e76e38a570498d41e4d7182939a99]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register c650f9dcd8a9e1d834a21bd80d7d7a84]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
+[Register e6e99a44c53f75cee6c1458f6fe859b2]
+date_width=92
+num_width=45
+reconcile_width=17
+balance_width=79
+transfer_width=200
+debit_width=79
+credit_width=79
+
 [Window 1]
 PageCount=6
 FirstPage=1
-PageOrder=1;6;2;3;4;5;
-WindowPosition=79;0;
-WindowGeometry=1110;818;
-WindowMaximized=false
+PageOrder=1;2;3;4;5;6;
+WindowPosition=0;0;
+WindowGeometry=1440;847;
+WindowMaximized=true
 ToolbarVisible=true
 SummarybarVisible=true
 StatusbarVisible=true
@@ -313,7 +349,7 @@ PageName=Conti
 AccountTypes=-1
 ShowHidden=false
 ShowZeroTotal=true
-SelectedAccount=Sbilancio-EUR
+SelectedAccount=Uscite:Ristorazione
 OpenAccount1=Attività
 OpenAccount2=Attività:Attività correnti
 OpenAccount3=Capitali
@@ -353,10 +389,10 @@ PageType=GncPluginPageRegister
 PageName=Conto corrente
 RegisterType=Account
 AccountName=Attività:Attività correnti:Conto corrente
-RegisterStyle=Journal
+RegisterStyle=Ledger
 DoubleLineMode=true
 
 [Page 6]
 PageType=GncPluginPageReport
 PageName=Istogramma uscite nei trimestri
-SchemeOptions=(let ((options (gnc:report-template-new-options/report-guid "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time"))) (let ((option (gnc:lookup-option options                                  "General"                                  "Report name")))   ((lambda (option) (if option ((gnc:option-setter option) "Istogramma uscite nei trimestri"))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "End Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(relative . today)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Start Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1420066800 . 0)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Step Size")))   ((lambda (option) (if option ((gnc:option-setter option) 'QuarterDelta))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Maximum Bars")))   ((lambda (option) (if option ((gnc:option-setter option) 10.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Height")))   ((lambda (option) (if option ((gnc:option-setter option) 600.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Width")))   ((lambda (option) (if option ((gnc:option-setter option) 1024.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show table")))   ((lambda (option) (if option ((gnc:option-setter option) #t))) option)) (if (defined? 'gnc:restore-report-by-guid-with-custom-template)   (gnc:restore-report-by-guid-with-custom-template 11 "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time" "9a723c9d3f60bd8d53eaa1e0be64379b" options)   (gnc:restore-report-by-guid 11 "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time" options)) )
+SchemeOptions=(let ((options (gnc:report-template-new-options/report-guid "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time"))) (let ((option (gnc:lookup-option options                                  "General"                                  "Report name")))   ((lambda (option) (if option ((gnc:option-setter option) "Istogramma uscite nei trimestri"))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "End Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(relative . today)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Start Date")))   ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1420066800 . 0)))) option)) (let ((option (gnc:lookup-option options                                  "General"                                  "Step Size")))   ((lambda (option) (if option ((gnc:option-setter option) 'YearDelta))) option)) (let ((option (gnc:lookup-option options                                  "Accounts"                                  "Show Accounts until level")))   ((lambda (option) (if option ((gnc:option-setter option) '3))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Maximum Bars")))   ((lambda (option) (if option ((gnc:option-setter option) 15.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Height")))   ((lambda (option) (if option ((gnc:option-setter option) 600.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Plot Width")))   ((lambda (option) (if option ((gnc:option-setter option) 1024.0))) option)) (let ((option (gnc:lookup-option options                                  "Display"                                  "Show table")))   ((lambda (option) (if option ((gnc:option-setter option) #t))) option)) (if (defined? 'gnc:restore-report-by-guid-with-custom-template)   (gnc:restore-report-by-guid-with-custom-template 11 "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time" "9a723c9d3f60bd8d53eaa1e0be64379b" options)   (gnc:restore-report-by-guid 11 "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time" options)) )

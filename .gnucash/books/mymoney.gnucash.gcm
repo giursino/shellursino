@@ -146,10 +146,10 @@ credit_width=90
 
 [Register a3a1c244abb660b2e5c56afef21da4ce]
 date_width=98
-date-due_width=98
+date-due_width=53
 num_width=50
 balance_width=90
-transfer_width=223
+transfer_width=79
 debit_width=90
 credit_width=90
 split-type_width=17
@@ -744,10 +744,10 @@ credit_width=79
 [Window 1]
 PageCount=6
 FirstPage=1
-PageOrder=1;6;2;4;3;5;
-WindowPosition=30;20;
-WindowGeometry=1359;796;
-WindowMaximized=false
+PageOrder=1;5;2;3;4;6;
+WindowPosition=0;0;
+WindowGeometry=1440;847;
+WindowMaximized=true
 ToolbarVisible=true
 SummarybarVisible=true
 StatusbarVisible=true
@@ -758,28 +758,21 @@ PageName=Conti
 AccountTypes=-1
 ShowHidden=false
 ShowZeroTotal=true
-SelectedAccount=Uscite:Mobilità:Auto:Assicurazione
+SelectedAccount=Capitali:Bilanci d'apertura
 OpenAccount1=Attività
 OpenAccount2=Attività:Attività correnti
 OpenAccount3=Attività:Attività correnti:Conto corrente
 OpenAccount4=Attività:Attività correnti:Denaro Prestato
 OpenAccount5=Attività:Attività correnti:Denaro Prestato:Anticipo
-OpenAccount6=Attività:Attività correnti:Liquidità
-OpenAccount7=Attività:Investimenti
-OpenAccount8=Attività:Investimenti:Fondi comuni
-OpenAccount9=Capitali
-OpenAccount10=Entrate
-OpenAccount11=Entrate:Entrate extra
-OpenAccount12=Entrate:Entrate Lavorative
-OpenAccount13=Entrate:Regali Ricevuti
-OpenAccount14=Entrate:Vendita oggetti
-OpenAccount15=Passività
-OpenAccount16=Passività:Prestiti
-OpenAccount17=Uscite
-OpenAccount18=Uscite:Mobilità
-OpenAccount19=Uscite:Mobilità:Auto
-OpenAccount20=Uscite:Sanità
-NumberOfOpenAccounts=20
+OpenAccount6=Attività:Investimenti
+OpenAccount7=Attività:Investimenti:Fondi comuni
+OpenAccount8=Capitali
+OpenAccount9=Entrate
+OpenAccount10=Passività
+OpenAccount11=Passività:Carta credito
+OpenAccount12=Passività:Prestiti
+OpenAccount13=Uscite
+NumberOfOpenAccounts=13
 
 [Page 2]
 PageType=GncPluginPageRegister
@@ -802,7 +795,7 @@ PageType=GncPluginPageRegister
 PageName=Fineco C/C
 RegisterType=Account
 AccountName=Attività:Attività correnti:Conto corrente:Fineco C/C
-RegisterStyle=Journal
+RegisterStyle=Auto Ledger
 DoubleLineMode=true
 
 [Page 5]
