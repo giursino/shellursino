@@ -63,7 +63,8 @@ qlgt.db
 .var
 .thunderbird
 .ssh/authorized_keys
-.gnucash/books/conto-comune.gnucash.gcm
-.gnucash/books/mymoney.gnucash.gcm
 .gconf/apps/cryptkeeper
 .gconf/apps/%gconf.xml
+.smartgit
+.webos
+.zenmap

@@ -22,6 +22,9 @@ set incsearch		" Incremental search
 "set hidden             " Hide buffers when they are abandoned
 set mouse=a		" Enable mouse usage (all modes)
 
+" disable bell
+set visualbell
+set t_vb=0
 
 set hlsearch		" Evidenziazione ricerca
 

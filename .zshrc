@@ -84,3 +84,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# no bell
+unsetopt beep
+unsetopt hist_beep
+unsetopt list_beep
+
