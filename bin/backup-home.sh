@@ -9,7 +9,7 @@ echo "Controllo assenza Eclipse..."
 pgrep -x eclipse && stop-eclipse
 
 echo "Inizio la sincronizzazione..."
-rsync -av --delete --exclude=Foto -e ssh \
+rsync -av --timeout=30 --delete --exclude=Foto -e ssh \
 	$HOME/Workspace \
 	$HOME/Immagini \
 	$HOME/Pubblici \
