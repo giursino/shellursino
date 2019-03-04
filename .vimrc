@@ -24,7 +24,7 @@ set mouse=a		" Enable mouse usage (all modes)
 
 " disable bell
 set visualbell
-set t_vb=0
+set t_vb=
 
 set hlsearch		" Evidenziazione ricerca
 
