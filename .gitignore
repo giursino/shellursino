@@ -54,7 +54,7 @@ ebook
 .grsync
 .thumbnails
 .mcf
-missfont.log
+*.log
 snx.elg
 .wget-hsts
 .xchm
@@ -71,3 +71,4 @@ qlgt.db
 .ripperXrc
 .texmf-var
 .vim
+.npm
