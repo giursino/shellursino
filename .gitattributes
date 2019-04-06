@@ -12,3 +12,6 @@ id_rsa* filter=git-crypt diff=git-crypt
 
 # credenziali samba
 smbcredentials.* filter=git-crypt diff=git-crypt
+
+# credenziali siti FTP con Filezilla
+.config/filezilla/sitemanager.xml filter=git-crypt diff=git-crypt
