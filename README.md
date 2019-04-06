@@ -51,7 +51,7 @@ touch .gitattributes
 ```
 Modificare il file .gitattributes con l'elenco dei file da criptare, esempio:
 ```
-# per evitare di icludere se stesso
+# per evitare di includere se stesso
 .gitattributes !filter !diff
 
 # qualsiasi file con estensione key
