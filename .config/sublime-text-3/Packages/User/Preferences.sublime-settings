@@ -1,6 +1,19 @@
 {
+	"added_words":
+	[
+		"fallimentari",
+		"di",
+		"corsi",
+		"procedure",
+		"Studio",
+		"Professionalitã ",
+		"Costi",
+		"Certi",
+		"Professionalitã "
+	],
 	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
-	"font_size": 10,
+	"dictionary": "Packages/Language - Italian/Italian.dic",
+	"font_size": 8,
 	"ignored_packages":
 	[
 		"Vintage"
