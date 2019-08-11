@@ -20,3 +20,4 @@ fi
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 PATH=$PATH:/opt/rpi-sdk/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
+export GOPATH=/usr/share/gocode
