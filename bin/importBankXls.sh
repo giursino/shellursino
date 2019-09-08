@@ -1,8 +1,6 @@
 #!/bin/sh
 #set -x
 
-INPUT="$1"
-OUTPUT="$INPUT.qif"
 BANK_TYPE="fineco"
 
 usage () {
@@ -29,6 +27,9 @@ do
 	esac
 done
 shift $(($OPTIND - 1))
+
+INPUT="$1"
+OUTPUT="$INPUT.qif"
 
 if [ ! "$#" -eq 1 ]; then
 	usage
@@ -71,13 +72,13 @@ echo "Converting to CSV..."
 #  Numeric format: system locale (it_IT)
 # Note: It is also possibile to change locale export prefixing the command with LC_ALL=es_US but I don't like the date format.
 if pidof soffice.bin > /dev/null; then
-	echo "ERROR: libreoffice is running, please close it"
+	echo "ERROR: libreoffice is running, please close it."
 	exit 1
 fi
 libreoffice --headless --convert-to csv:"Text - txt - csv (StarCalc)":59,34,,, "$INPUT" --outdir $TMPD
 TMPF="$TMPD/$(ls -1 $TMPD)"
 if [ ! -f "$TMPF" ]; then
-	echo "ERROR: CSV conversion failed"
+	echo "ERROR: CSV conversion failed."
 	exit 1
 fi
 echo "Converting to QIF..."
