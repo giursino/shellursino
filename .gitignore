@@ -60,6 +60,7 @@ snx.elg
 .xchm
 .xscreensaver
 qlgt.db
+qlgt.db-journal
 .var
 .thunderbird
 .ssh/authorized_keys
@@ -73,3 +74,4 @@ qlgt.db
 .vim
 .npm
 .rnd
+.QMapShack
