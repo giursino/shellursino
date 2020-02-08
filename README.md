@@ -29,7 +29,7 @@ git checkout
 git branch --set-upstream-to=origin/master master
 
 # Poi si deve sbloccare il repo
-git-crypt unlock <CHIAVE>
+git-crypt unlock <CHIAVE, esempio: .git-crypt/shellursino.key>
 
 # Verificare di aver accessibili le chiavi SSH:
 cat .ssh/id-rsa
@@ -48,6 +48,11 @@ Questo è utile per caricare su git pubblico anche i file contenenti password
 ```
 git-crypt init
 touch .gitattributes
+```
+Esportare la chiave per le volte successive
+```
+mkdir .git-crypt
+git-crypt export-key .git-crypt/shellursino.key
 ```
 Modificare il file .gitattributes con l'elenco dei file da criptare, esempio:
 ```
