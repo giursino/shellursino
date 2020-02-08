@@ -75,3 +75,6 @@ qlgt.db-journal
 .npm
 .rnd
 .QMapShack
+.gtkrc-2.0 
+.gtkrc-xfce
+.zcompdump*
