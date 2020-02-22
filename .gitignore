@@ -80,3 +80,7 @@ qlgt.db-journal
 .zcompdump*
 
 .git-crypt
+.cert
+.nv
+.nvidia-settings-rc
+.purple
