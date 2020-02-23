@@ -90,3 +90,9 @@ unsetopt beep
 unsetopt hist_beep
 unsetopt list_beep
 
+# List directory contents
+alias l='ls -lh'
+alias ll='ls -lah'
+alias la='ls -lAh'
+alias lart='ls -lart'
+alias l1='ls -1'
