@@ -81,6 +81,7 @@ qlgt.db-journal
 .aliases
 .display
 .dotfiles
+dotfiles
 .oh-my-zsh
 .tmux
 .tmux.conf
