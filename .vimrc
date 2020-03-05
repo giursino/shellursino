@@ -1,1 +1,0 @@
-/home/giursino/.vim/janus/vim/vimrc

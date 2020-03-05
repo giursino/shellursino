@@ -1,7 +1,0 @@
-"set background=dark
-"colorscheme janus
-
-color molokai
-
-" swap two character
-:nnoremap <silent> gc xph
