@@ -11,6 +11,7 @@ Video
 Workspace
 VirtualBox
 ebook
+vimwiki
 
 .ICEauthority
 .Xauthority
@@ -94,3 +95,7 @@ dotfiles
 .gitconfig
 .vimrc
 .zshrc
+.ngrok
+*.swp
+*~
+.zoom
