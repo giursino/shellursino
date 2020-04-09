@@ -12,6 +12,7 @@ Workspace
 VirtualBox
 ebook
 vimwiki
+bin
 
 .ICEauthority
 .Xauthority
@@ -99,3 +100,4 @@ dotfiles
 *.swp
 *~
 .zoom
+.macromedia
