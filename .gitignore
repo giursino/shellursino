@@ -99,6 +99,8 @@ dotfiles
 .ngrok
 *.swp
 *.swo
+*.swn
 *~
 .zoom
 .macromedia
+.asciinema
