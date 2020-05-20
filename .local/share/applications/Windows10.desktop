@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Windows 10
+Comment=Run virtual machine Windows 10
+Keywords=win;virtual-box;vmdk;
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Application;Utility;Office
+Icon=virtualbox-vbox
+Exec=vboxmanage startvm win10
