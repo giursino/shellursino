@@ -106,3 +106,4 @@ dotfiles
 .asciinema
 VirtualBox VMs
 opt
+.ansible*
