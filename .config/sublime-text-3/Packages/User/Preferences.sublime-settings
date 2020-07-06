@@ -11,9 +11,9 @@
 		"Certi",
 		"Professionalitã "
 	],
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
+	"color_scheme": "Packages/Base16 Color Schemes/Themes/base16-github.tmTheme",
 	"dictionary": "Packages/Language - Italian/Italian.dic",
-	"font_size": 8,
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Vintage"

@@ -5,6 +5,8 @@
 	],
 	"installed_packages":
 	[
+		"Base16 Color Schemes",
+		"GitHub Theme",
 		"MarkdownPreview",
 		"Package Control"
 	]
