@@ -108,3 +108,6 @@ VirtualBox VMs
 opt
 .ansible*
 *.local
+.android
+.python_history
+*.old
