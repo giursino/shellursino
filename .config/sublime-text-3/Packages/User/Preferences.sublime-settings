@@ -13,6 +13,7 @@
 	],
 	"color_scheme": "Packages/Base16 Color Schemes/Themes/base16-github.tmTheme",
 	"dictionary": "Packages/Language - Italian/Italian.dic",
+	"draw_white_space": "all",
 	"font_size": 10,
 	"ignored_packages":
 	[
@@ -20,7 +21,6 @@
 	],
 	"spell_check": true,
 	"tab_size": 2,
-	"draw_white_space": "all",
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
