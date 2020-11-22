@@ -112,3 +112,4 @@ opt
 .android
 .python_history
 *.old
+.basheditor
