@@ -11,7 +11,7 @@
 		"Certi",
 		"Professionalitã "
 	],
-	"color_scheme": "Packages/Base16 Color Schemes/Themes/base16-github.tmTheme",
+	"color_scheme": "Packages/GitHub Theme/schemes/GitHub Light.sublime-color-scheme",
 	"dictionary": "Packages/Language - Italian/Italian.dic",
 	"draw_white_space": "all",
 	"font_size": 10,
